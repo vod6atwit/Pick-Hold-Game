@@ -32,7 +32,7 @@ the winner.<br /><br />
 
 ### You Can Try It Here: [Roll A Dice][1] 😎
 
-[1]: https://roll-a-dice-vod6.netlify.app/'Roll A Dice'
+[1]: https://roll-a-dice-vod6.netlify.app/ 'Roll A Dice'
 
 ## Getting Started
 
@@ -47,7 +47,7 @@ the winner.<br /><br />
 
 You can find it here : https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
-After install live server, click to Go Live button
+After install live server, click Go Live button
 
 #### 2. Roll a dice by clicking the ROLL DICE button
 
