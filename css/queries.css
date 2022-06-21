@@ -1,0 +1,122 @@
+/* rem and em do NOT depend on html font size in media queries! 
+Instead, 1 rem = 1 em = 16px */
+
+/* ********************************** */
+/* 1056/16 = 66 */
+/* BELOW 1056px (Tablets) */
+/* ********************************** */
+@media (max-width: 66em) {
+  main {
+    width: 80rem;
+    height: 50rem;
+  }
+  .btn::first-letter {
+    font-size: 2rem;
+  }
+  .btn--roll {
+    top: 30.3rem;
+  }
+  .btn--hold {
+    top: 36.1rem;
+  }
+  .dice {
+    height: 9rem;
+  }
+}
+
+/* ********************************** */
+/* 832/16 = 52 */
+/* BELOW 832px (Small Tablets) */
+/* ********************************** */
+@media (max-width: 52em) {
+  main {
+    width: 60rem;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .score {
+    font-size: 4rem;
+  }
+  .current {
+    /* width: 30%; */
+    padding: 2rem 0rem;
+  }
+  .current-label {
+    font-size: 1rem;
+  }
+  .current-score {
+    font-size: 1.75rem;
+  }
+  .btn {
+    font-size: 1.4rem;
+  }
+  .btn--roll {
+    top: 32.3rem;
+  }
+  .btn--hold {
+    top: 37.1rem;
+  }
+  .btn::first-letter {
+    font-size: 1.5rem;
+  }
+  .btn--game-rules {
+    font-size: 1.4rem;
+  }
+  .game-rules-text {
+    font-size: 1.5rem;
+  }
+}
+
+/* ********************************** */
+/* 624/16 = 39 */
+/* BELOW 624px (Phone) */
+/* ********************************** */
+@media (max-width: 39em) {
+  main {
+    width: 30rem;
+    height: 40rem;
+  }
+  .player {
+    padding: 9rem 0rem;
+  }
+  .name {
+    font-size: 1.5rem;
+  }
+  .score {
+    font-size: 2rem;
+  }
+  .current {
+    width: 40%;
+    padding: 2rem 0rem;
+  }
+  .current-label {
+    font-size: 1rem;
+  }
+  .current-score {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 0.75rem;
+    padding: 0.25rem 1rem;
+  }
+
+  .btn::first-letter {
+    font-size: 0.75rem;
+  }
+  .btn--roll {
+    top: 25.3rem;
+  }
+  .btn--hold {
+    top: 28.1rem;
+  }
+  .dice {
+    height: 5rem;
+  }
+  .btn--game-rules {
+    font-size: 1.2rem;
+  }
+  .game-rules-text {
+    font-size: 0.75rem;
+  }
+}
