@@ -32,7 +32,7 @@ the winner.<br /><br />
 
 ### You Can Try It Here: [Roll A Dice][1] 😎
 
-[1]: https://roll-a-dice-vod6.netlify.app/ 'Roll A Dice'
+[1]: https://rolladice.duyvotech.com/ 'Roll A Dice'
 
 ## Getting Started
 
